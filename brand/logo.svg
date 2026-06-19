@@ -1,17 +1,30 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 120">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 120">
   <defs>
-    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#ff8c5a"/>
-      <stop offset="100%" style="stop-color:#FFD700"/>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8a6aff"/>
+      <stop offset="100%" style="stop-color:#c084fc"/>
+    </linearGradient>
+    <linearGradient id="wordgrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#f0f0f5"/>
+      <stop offset="100%" style="stop-color:#c4b5fd"/>
     </linearGradient>
   </defs>
-  <rect width="300" height="120" fill="#0a0a0a"/>
-  <!-- Icon -->
-  <rect x="16" y="24" width="72" height="72" rx="16" fill="#FF6B35" opacity="0.12"/>
-  <rect x="16" y="24" width="72" height="72" rx="16" fill="none" stroke="#FF6B35" stroke-width="1.5"/>
-  <text x="52" y="76" font-family="Arial Black,sans-serif" font-size="28" font-weight="900" text-anchor="middle" fill="url(#grad)">3D</text>
+
+  <rect width="360" height="120" fill="#0a0a0a"/>
+
+  <!-- Icon: isometric cube made of 3 parallelograms -->
+  <!-- Top face -->
+  <polygon points="60,20 88,34 60,48 32,34" fill="#8a6aff" opacity="0.9"/>
+  <!-- Left face -->
+  <polygon points="32,34 60,48 60,82 32,68" fill="#6C47FF" opacity="0.7"/>
+  <!-- Right face -->
+  <polygon points="88,34 88,68 60,82 60,48" fill="#c084fc" opacity="0.5"/>
+  <!-- Inner cube top face (smaller, offset) -->
+  <polygon points="60,32 74,39 60,46 46,39" fill="#0a0a0a" opacity="0.4"/>
+
   <!-- Wordmark -->
-  <text x="104" y="70" font-family="Arial Black,sans-serif" font-size="52" font-weight="900" fill="#f0f0f0" letter-spacing="1">GS<tspan fill="url(#grad)">3D</tspan></text>
+  <text x="108" y="62" font-family="Arial,sans-serif" font-size="44" font-weight="800" fill="url(#wordgrad)" letter-spacing="-1">GS<tspan fill="url(#grad)">3D</tspan></text>
+
   <!-- Tagline -->
-  <text x="104" y="98" font-family="Arial,sans-serif" font-size="13" fill="#888899" letter-spacing="3">STAMPA 3D · LED · GADGET</text>
+  <text x="108" y="90" font-family="Arial,sans-serif" font-size="11" font-weight="500" fill="#6C47FF" letter-spacing="4">STAMPA 3D · LED · GADGET</text>
 </svg>
