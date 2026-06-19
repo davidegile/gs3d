@@ -466,6 +466,29 @@ h3 { font-size: 1.15rem; font-weight: 700; }
 .form-success h3 { margin-bottom: 8px; font-size: 1.4rem; }
 .form-success p { color: var(--text-muted); }
 
+/* ===== CROSS PROMO ===== */
+.crosspromo {
+  background: var(--bg-card2);
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  padding: 40px 0;
+}
+.crosspromo-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+}
+.crosspromo-text .eyebrow { margin-bottom: 6px; }
+.crosspromo-text h3 { font-size: 1.1rem; margin-bottom: 6px; }
+.crosspromo-text p { color: var(--text-muted); font-size: 0.9rem; }
+.crosspromo-btn { flex-shrink: 0; }
+
+@media (max-width: 700px) {
+  .crosspromo-inner { flex-direction: column; align-items: flex-start; }
+  .crosspromo-btn { width: 100%; }
+}
+
 /* ===== FOOTER ===== */
 .footer {
   background: var(--bg-card);
