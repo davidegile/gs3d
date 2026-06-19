@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a0a"/>
+      <stop offset="100%" style="stop-color:#161610"/>
+    </linearGradient>
+    <linearGradient id="orange" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ff8c5a"/>
+      <stop offset="100%" style="stop-color:#FFD700"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <ellipse cx="540" cy="540" rx="480" ry="400" fill="#FF6B35" opacity="0.05"/>
+
+  <!-- Label -->
+  <rect x="340" y="72" width="400" height="48" rx="24" fill="#FF6B35" opacity="0.15"/>
+  <rect x="340" y="72" width="400" height="48" rx="24" fill="none" stroke="#FF6B35" stroke-width="1.5" opacity="0.5"/>
+  <text x="540" y="103" font-family="Arial,sans-serif" font-size="18" font-weight="700" text-anchor="middle" fill="#ff8c5a" letter-spacing="3">COME FUNZIONA</text>
+
+  <!-- Headline -->
+  <text x="540" y="196" font-family="Arial Black,sans-serif" font-size="48" font-weight="900" text-anchor="middle" fill="#f0f0f0">Dal preventivo al prodotto</text>
+  <text x="540" y="252" font-family="Arial Black,sans-serif" font-size="48" font-weight="900" text-anchor="middle" fill="url(#orange)">in soli 7 giorni</text>
+
+  <!-- Step 1 -->
+  <rect x="80" y="300" width="920" height="160" rx="20" fill="#111111" stroke="#FF6B35" stroke-width="1.5" stroke-opacity="0.25"/>
+  <text x="148" y="398" font-family="Arial Black,sans-serif" font-size="64" font-weight="900" text-anchor="middle" fill="#FF6B35" opacity="0.3">01</text>
+  <text x="260" y="368" font-family="Arial Black,sans-serif" font-size="28" font-weight="700" fill="#f0f0f0">Preventivo gratuito</text>
+  <text x="260" y="406" font-family="Arial,sans-serif" font-size="22" fill="#888899">Descrivi cosa ti serve. Risposta entro 24h.</text>
+
+  <!-- Step 2 -->
+  <rect x="80" y="490" width="920" height="160" rx="20" fill="#111111" stroke="#FF6B35" stroke-width="1.5" stroke-opacity="0.25"/>
+  <text x="148" y="588" font-family="Arial Black,sans-serif" font-size="64" font-weight="900" text-anchor="middle" fill="#FF6B35" opacity="0.3">02</text>
+  <text x="260" y="558" font-family="Arial Black,sans-serif" font-size="28" font-weight="700" fill="#f0f0f0">Design &amp; approvazione</text>
+  <text x="260" y="596" font-family="Arial,sans-serif" font-size="22" fill="#888899">Vedi l'anteprima e approvi prima di produrre.</text>
+
+  <!-- Step 3 -->
+  <rect x="80" y="680" width="920" height="160" rx="20" fill="#FF6B35" opacity="0.08"/>
+  <rect x="80" y="680" width="920" height="160" rx="20" fill="none" stroke="#FF6B35" stroke-width="2"/>
+  <text x="148" y="778" font-family="Arial Black,sans-serif" font-size="64" font-weight="900" text-anchor="middle" fill="#FF6B35" opacity="0.5">03</text>
+  <text x="260" y="748" font-family="Arial Black,sans-serif" font-size="28" font-weight="700" fill="#f0f0f0">Produzione &amp; consegna</text>
+  <text x="260" y="786" font-family="Arial,sans-serif" font-size="22" fill="#888899">Spedizione in tutta Italia in 7-10 giorni.</text>
+
+  <!-- Trust -->
+  <text x="540" y="900" font-family="Arial,sans-serif" font-size="22" text-anchor="middle" fill="#888899">✓ Nessun minimo   ✓ Anteprima inclusa   ✓ Produzione italiana</text>
+
+  <!-- CTA -->
+  <rect x="240" y="930" width="600" height="70" rx="35" fill="#FF6B35"/>
+  <text x="540" y="975" font-family="Arial Black,sans-serif" font-size="24" font-weight="900" text-anchor="middle" fill="#ffffff">Richiedi preventivo → Link in bio</text>
+
+  <!-- Footer -->
+  <text x="540" y="1050" font-family="Arial Black,sans-serif" font-size="22" font-weight="900" text-anchor="middle" fill="url(#orange)" letter-spacing="2">GS3D · gs3d-lab.com</text>
+</svg>

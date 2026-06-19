@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a0a"/>
+      <stop offset="100%" style="stop-color:#161610"/>
+    </linearGradient>
+    <linearGradient id="orange" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ff8c5a"/>
+      <stop offset="100%" style="stop-color:#FFD700"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <ellipse cx="540" cy="540" rx="480" ry="400" fill="#FF6B35" opacity="0.05"/>
+
+  <!-- Label -->
+  <rect x="340" y="72" width="400" height="48" rx="24" fill="#FF6B35" opacity="0.15"/>
+  <rect x="340" y="72" width="400" height="48" rx="24" fill="none" stroke="#FF6B35" stroke-width="1.5" opacity="0.5"/>
+  <text x="540" y="103" font-family="Arial,sans-serif" font-size="18" font-weight="700" text-anchor="middle" fill="#ff8c5a" letter-spacing="3">I NOSTRI PRODOTTI</text>
+
+  <!-- Headline -->
+  <text x="540" y="196" font-family="Arial Black,sans-serif" font-size="46" font-weight="900" text-anchor="middle" fill="#f0f0f0">Rendi la tua attività</text>
+  <text x="540" y="252" font-family="Arial Black,sans-serif" font-size="46" font-weight="900" text-anchor="middle" fill="url(#orange)">impossibile da dimenticare</text>
+
+  <!-- Product cards 2x2 -->
+  <!-- Card 1 -->
+  <rect x="80" y="290" width="440" height="200" rx="20" fill="#111111" stroke="#FF6B35" stroke-width="2" stroke-opacity="0.4"/>
+  <text x="300" y="360" font-family="Arial,sans-serif" font-size="52" text-anchor="middle">🔑</text>
+  <text x="300" y="418" font-family="Arial Black,sans-serif" font-size="26" font-weight="700" text-anchor="middle" fill="#f0f0f0">Portachiavi 3D</text>
+  <text x="300" y="454" font-family="Arial,sans-serif" font-size="20" text-anchor="middle" fill="#ff8c5a">da €2,50 cad.</text>
+
+  <!-- Card 2 -->
+  <rect x="560" y="290" width="440" height="200" rx="20" fill="#111111" stroke="#FF6B35" stroke-width="2" stroke-opacity="0.4"/>
+  <text x="780" y="360" font-family="Arial,sans-serif" font-size="52" text-anchor="middle">💡</text>
+  <text x="780" y="418" font-family="Arial Black,sans-serif" font-size="26" font-weight="700" text-anchor="middle" fill="#f0f0f0">Insegne LED</text>
+  <text x="780" y="454" font-family="Arial,sans-serif" font-size="20" text-anchor="middle" fill="#ff8c5a">da €120</text>
+
+  <!-- Card 3 -->
+  <rect x="80" y="520" width="440" height="200" rx="20" fill="#111111" stroke="#FF6B35" stroke-width="2" stroke-opacity="0.4"/>
+  <text x="300" y="590" font-family="Arial,sans-serif" font-size="52" text-anchor="middle">🏷️</text>
+  <text x="300" y="648" font-family="Arial Black,sans-serif" font-size="26" font-weight="700" text-anchor="middle" fill="#f0f0f0">Gadget su misura</text>
+  <text x="300" y="684" font-family="Arial,sans-serif" font-size="20" text-anchor="middle" fill="#ff8c5a">da €5 cad.</text>
+
+  <!-- Card 4 -->
+  <rect x="560" y="520" width="440" height="200" rx="20" fill="#111111" stroke="#FF6B35" stroke-width="2" stroke-opacity="0.4"/>
+  <text x="780" y="590" font-family="Arial,sans-serif" font-size="52" text-anchor="middle">🖨️</text>
+  <text x="780" y="648" font-family="Arial Black,sans-serif" font-size="26" font-weight="700" text-anchor="middle" fill="#f0f0f0">Prototipazione</text>
+  <text x="780" y="684" font-family="Arial,sans-serif" font-size="20" text-anchor="middle" fill="#ff8c5a">su richiesta</text>
+
+  <!-- Trust -->
+  <text x="540" y="790" font-family="Arial,sans-serif" font-size="22" text-anchor="middle" fill="#888899">✓ Produzione italiana   ✓ Consegna 7-10gg   ✓ Nessun minimo</text>
+
+  <!-- CTA -->
+  <rect x="190" y="828" width="700" height="76" rx="38" fill="#FF6B35"/>
+  <text x="540" y="875" font-family="Arial Black,sans-serif" font-size="26" font-weight="900" text-anchor="middle" fill="#ffffff">Preventivo gratuito → Link in bio</text>
+
+  <!-- For who -->
+  <text x="540" y="966" font-family="Arial,sans-serif" font-size="22" text-anchor="middle" fill="#888899">Per B&amp;B · Hotel · Lidi · Ristoranti · Negozi</text>
+
+  <!-- Footer -->
+  <text x="540" y="1048" font-family="Arial Black,sans-serif" font-size="22" font-weight="900" text-anchor="middle" fill="url(#orange)" letter-spacing="2">GS3D · gs3d-lab.com</text>
+</svg>
