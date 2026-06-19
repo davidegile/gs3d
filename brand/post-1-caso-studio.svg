@@ -48,6 +48,14 @@
   <text x="540" y="862" font-family="Arial,sans-serif" font-size="22" font-style="italic" text-anchor="middle" fill="#e0e0d8">È come avere la nostra pubblicità in giro per tutta Italia."</text>
   <text x="540" y="896" font-family="Arial,sans-serif" font-size="16" text-anchor="middle" fill="#ff8c5a">— Titolare, Lido Diomedee</text>
 
-  <!-- Footer -->
-  <text x="540" y="1048" font-family="Arial Black,sans-serif" font-size="22" font-weight="900" text-anchor="middle" fill="url(#orange)" letter-spacing="2">GS3D · gs3d-lab.com</text>
+  <!-- Footer con cubo isometrico + wordmark -->
+  <rect x="0" y="990" width="1080" height="90" fill="#080808"/>
+  <line x1="0" y1="990" x2="1080" y2="990" stroke="#FF6B35" stroke-width="1" opacity="0.25"/>
+  <!-- Cubo isometrico (piccolo) -->
+  <polygon points="388,1004 404,1012 388,1020 372,1012" fill="#FFD700" opacity="0.95"/>
+  <polygon points="372,1012 372,1032 388,1040 388,1020" fill="#FF6B35" opacity="0.90"/>
+  <polygon points="404,1012 404,1032 388,1040 388,1020" fill="#e55520" opacity="0.80"/>
+  <!-- Wordmark -->
+  <text x="418" y="1035" font-family="Arial,sans-serif" font-size="26" font-weight="800" fill="#f0f0f0" letter-spacing="-0.5">GS<tspan fill="#FF6B35">3D</tspan></text>
+  <text x="496" y="1035" font-family="Arial,sans-serif" font-size="17" fill="#FF6B35" opacity="0.8">· gs3d-lab.com</text>
 </svg>
